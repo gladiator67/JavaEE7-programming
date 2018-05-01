@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+	http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	
+  <persistence-unit name="MyFamily">
+  <!-- oracle인 경우 jta-data-source는 java:jboss/datasources/OracleDS로 바꾸어준다. -->  
+  <!-- mariadb인 경우 jta-data-source는 java:jboss/datasources/MariadbDS로 바꾸어준다. -->
+    <jta-data-source>java:jboss/datasources/MariadbDS</jta-data-source>
+
+    <properties>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="javax.persistence.schema-generation.create-source" value="script"/>
+      <property name="javax.persistence.schema-generation.drop-source" value="script"/>
+      <property name="javax.persistence.schema-generation.drop-script-source" value="META-INF/drop-script.sql"/>
+      <property name="javax.persistence.schema-generation.create-script-source" value="META-INF/create-script.sql"/>
+      <property name="javax.persistence.sql-load-script-source" value="META-INF/insert-script.sql"/>
+      <!-- MariaDB인 경우 MySQL과 모두 호환이 되므로 MySQL hibernate를 사용한다. -->
+      <!-- oracle인 경우 value="org.hibernate.dialect.Oracle12cDialect"로 바꾸어 준다. -->
+      <property name="org.hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+    </properties>
+  </persistence-unit>
+</persistence>

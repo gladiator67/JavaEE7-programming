@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+	http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+<persistence-unit name="MyFamily">
+  <!-- mariadb인 경우 jta-data-source는 java:jboss/datasources/MariadbDS로 바꾸어준다. -->
+  <!-- oracle인 경우 jta-data-source는 java:jboss/datasources/OracleDS로 바꾸어준다. -->
+    <jta-data-source>java:jboss/datasources/MariadbDS</jta-data-source>
+
+    <properties>
+      <property name="hibernate.show_sql" value="true"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+      <property name="javax.persistence.schema-generation.create-source" value="metadata"/>
+      <property name="javax.persistence.schema-generation.drop-source" value="metadata"/>
+      <property name="javax.persistence.sql-load-script-source" value="META-INF/load-script.sql"/>
+      <!-- oracle인 경우 value="org.hibernate.dialect.Oracle12cDialect"로 바꾸어 준다. -->
+      <property name="org.hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+    </properties>
+  </persistence-unit>
+</persistence>

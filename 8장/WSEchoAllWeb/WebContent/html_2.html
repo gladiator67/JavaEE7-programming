@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>WebSocket 클라이언트 #2</title>
+</head>
+<script>
+   var wsUri = "ws://localhost:8080/WSEchoAllWeb/echoAll";
+
+   var websocket = new WebSocket(wsUri);
+   
+   websocket.onopen = function(evt) { onOpen(evt) };
+   websocket.onmessage = function(evt) { onMessage(evt) };
+   websocket.onerror = function(evt) { onError(evt) };
+
+   function send_msg() {
+      websocket.send("[client #2] " + textID.value);
+      
+      writeToScreen("SENT from client #2: " + textID.value);
+   }
+
+   function onOpen(evt) {
+      writeToScreen("CONNECTED");
+   }
+
+   function onMessage(evt) {
+      writeToScreen("RECEIVED: " + evt.data);
+   }
+
+   function onError(evt) {
+      writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
+   }
+
+   function writeToScreen(message) {
+      var pre = document.createElement("p");
+      pre.style.wordWrap = "break-word";
+      pre.innerHTML = message;
+      output.appendChild(pre);
+   }
+</script>
+<body>
+<input id="textID" name="message" type="text">
+<input onclick="send_msg()" value="전송" type="button"><p>
+<div id="output"></div>
+</body>
+</html>

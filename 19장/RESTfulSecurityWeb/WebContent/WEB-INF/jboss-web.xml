@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jboss-web>
+    <!-- standalone.xml파일에 설정되어 있는 security domain과 연동한다.-->
+    <security-domain>java:/jaas/my_secure_domain</security-domain>
+</jboss-web>

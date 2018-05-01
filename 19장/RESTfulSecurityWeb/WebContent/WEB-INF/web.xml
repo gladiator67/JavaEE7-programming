@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+        http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+	id="WebApp_ID" version="3.1">
+  <display-name>RESTfulSecurityWeb</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet-mapping> 
+    <servlet-name>resteasy-servlet</servlet-name> 
+    <url-pattern>/rest/*</url-pattern> 
+  </servlet-mapping> 
+  
+  <!-- RESTful 웹 서비스를  자동으로 스캔한다. --> 
+  <context-param> 
+    <param-name>resteasy.scan</param-name> 
+    <param-value>true</param-value> 
+  </context-param> 
+  
+  <!-- servlet-mapping 요소와 같은 URL 패턴을 가져야 한다. --> 
+  <context-param> 
+    <param-name>resteasy.servlet.mapping.prefix</param-name> 
+    <param-value>/rest</param-value> 
+  </context-param> 
+  
+  <!-- RESTEasy 서비스가 WildFly가 제공하는 웹 애플리케이션 보안을 사용하기 위하여 지정한다.  -->
+  <context-param> 
+    <param-name>resteasy.role.based.security</param-name>
+    <param-value>true</param-value> 
+  </context-param>
+  
+  <!-- RESTEasy의 웹 호출에 대한 권한을 administrator와 user로 제한한다. -->
+  <security-constraint> 
+    <web-resource-collection> 
+      <web-resource-name>admin</web-resource-name> 
+      <url-pattern>/*</url-pattern> 
+      <http-method>GET</http-method>
+      <http-method>POST</http-method>
+    </web-resource-collection> 
+    <auth-constraint> 
+      <role-name>administrator</role-name>
+      <role-name>user</role-name>
+    </auth-constraint> 
+  </security-constraint> 
+  
+  <!-- 사용되어질 권한을 지정한다. -->
+  <security-role> 
+    <role-name>administrator</role-name>
+  </security-role> 
+  <security-role> 
+    <role-name>user</role-name>
+  </security-role> 
+  
+  <!-- login-config요소에서 설정하고자 하는 인증방법을 지정한다 -->
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>WildFly11BasicRealm</realm-name>
+  </login-config>
+  
+  <listener> 
+    <listener-class> 
+      org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap 
+    </listener-class> 
+  </listener>
+   
+  <servlet> 
+    <servlet-name>resteasy-servlet</servlet-name> 
+    <servlet-class> 
+      org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher 
+    </servlet-class> 
+  </servlet>
+</web-app>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+     http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+     version="2.1">
+
+  <persistence-unit name="MyFamily">
+  <!-- MariaDB인 경우 jta-data-source는 java:jboss/datasources/MariadbDS로 바꾸어준다. -->
+  <!-- oracle인 경우 jta-data-source는 java:jboss/datasources/OracleDS로 바꾸어준다. -->
+    <jta-data-source>java:jboss/datasources/MariadbDS</jta-data-source>
+
+    <properties>
+      <property name="hibernate.show_sql" value="true"/>
+      <!-- oracle인 경우 value="org.hibernate.dialect.Oracle12cDialect"로 바꾸어 준다. -->
+      <property name="org.hibernate.dialect" value="org.hibernate.dialect.MySql5Dialect"/>
+    </properties>
+  </persistence-unit>
+</persistence>

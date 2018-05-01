@@ -1,0 +1,589 @@
+[Fri Feb 16 20:11:37.387 2018] [4308:8564] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Fri Feb 16 20:11:37.389 2018] [4308:8564] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Fri Feb 16 20:14:54.412 2018] [4308:3676] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping
+[Sat Feb 17 08:10:53.530 2018] [7612:1040] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Sat Feb 17 08:10:53.546 2018] [7612:1040] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Sat Feb 17 08:14:34.928 2018] [7612:7852] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping
+[Sat Feb 17 12:27:52.962 2018] [3828:7120] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Sat Feb 17 12:27:52.969 2018] [3828:7120] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Sat Feb 17 12:27:54.054 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:27:54.056 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:27:54.059 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:54.061 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:27:55.165 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:27:55.168 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:27:55.170 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:55.173 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:27:55.175 2018] [3828:7120] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 12:27:55.177 2018] [3828:7120] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:27:56.182 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:27:56.184 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:27:56.186 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:56.188 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:27:57.293 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:27:57.295 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:27:57.297 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:57.299 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:27:57.301 2018] [3828:7120] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 12:27:57.303 2018] [3828:7120] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:27:57.405 2018] [3828:7120] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:27:58.409 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:27:58.412 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:27:58.414 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:58.417 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:27:59.522 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:27:59.524 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:27:59.528 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:27:59.530 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:27:59.532 2018] [3828:7120] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 12:27:59.534 2018] [3828:7120] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:28:00.538 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:00.540 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:00.542 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:00.544 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:01.650 2018] [3828:7120] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:01.650 2018] [3828:7120] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:01.651 2018] [3828:7120] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:01.652 2018] [3828:7120] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:01.652 2018] [3828:7120] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 12:28:01.653 2018] [3828:7120] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in local error state
+[Sat Feb 17 12:28:01.653 2018] [3828:7120] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:28:01.654 2018] [3828:7120] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:28:01.654 2018] [3828:7120] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:28:01.950 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:01.953 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:01.956 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:01.959 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:03.065 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:03.067 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:03.069 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:03.071 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:03.073 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 12:28:03.076 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:28:03.077 2018] [3828:2172] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:28:04.082 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:04.085 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:04.088 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:04.090 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:05.197 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:05.200 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:05.202 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:05.204 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:05.206 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 12:28:05.208 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:28:06.315 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:06.318 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:06.320 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:06.323 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:07.427 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:07.430 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:07.432 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:07.434 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:07.436 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 12:28:07.438 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:28:07.440 2018] [3828:2172] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 12:28:07.442 2018] [3828:2172] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:28:07.445 2018] [3828:2172] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:28:07.447 2018] [3828:2172] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:28:35.566 2018] [3828:2172] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:28:36.570 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:36.573 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:36.576 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:36.579 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:37.685 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:37.688 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:37.690 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:37.693 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:37.695 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 12:28:37.697 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:28:38.703 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:38.706 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:38.708 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:38.709 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:39.816 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:39.819 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:39.826 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:39.829 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:39.831 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 12:28:39.835 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:28:39.946 2018] [3828:2172] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Sat Feb 17 12:28:39.948 2018] [3828:2172] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 12:28:39.950 2018] [3828:2172] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:28:39.953 2018] [3828:2172] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:28:39.955 2018] [3828:2172] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:28:44.561 2018] [3828:2172] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:28:45.567 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:45.570 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:45.572 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:45.574 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:46.680 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:28:46.683 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:28:46.685 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:46.688 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:46.691 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 12:28:46.692 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:28:47.697 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:47.700 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:47.703 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:47.706 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:28:48.814 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:28:48.817 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:28:48.819 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:28:48.821 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:28:48.827 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 12:28:48.829 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:28:48.933 2018] [3828:2172] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Sat Feb 17 12:28:48.935 2018] [3828:2172] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 12:28:48.937 2018] [3828:2172] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:28:48.939 2018] [3828:2172] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:28:48.941 2018] [3828:2172] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:31:05.608 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:31:05.611 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:31:05.614 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:05.617 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:31:06.722 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:31:06.724 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:31:06.726 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:06.728 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:31:06.730 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 12:31:06.733 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:31:07.738 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:31:07.741 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:31:07.743 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:07.745 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:31:08.849 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:31:08.850 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:31:08.852 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:08.853 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:31:08.854 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Sat Feb 17 12:31:08.854 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:31:08.956 2018] [3828:2172] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:31:09.962 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:31:09.965 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:31:09.968 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:09.970 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:31:11.077 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:31:11.079 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:31:11.082 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:11.085 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:31:11.087 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Sat Feb 17 12:31:11.090 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:31:12.096 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:31:12.098 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:31:12.102 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:12.104 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:31:13.210 2018] [3828:2172] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:31:13.214 2018] [3828:2172] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:31:13.216 2018] [3828:2172] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:31:13.218 2018] [3828:2172] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:31:13.220 2018] [3828:2172] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=8, client_errors=0).
+[Sat Feb 17 12:31:13.222 2018] [3828:2172] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:31:13.225 2018] [3828:2172] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:31:13.227 2018] [3828:2172] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:31:13.229 2018] [3828:2172] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:33:03.940 2018] [3828:6636] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping
+[Sat Feb 17 12:33:15.220 2018] [2188:868] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Sat Feb 17 12:33:15.263 2018] [2188:868] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Sat Feb 17 12:33:16.343 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:33:16.346 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:33:16.349 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:16.351 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:33:17.457 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:33:17.460 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:33:17.463 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:17.464 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:33:17.467 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 12:33:17.470 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:33:18.474 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:33:18.475 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:33:18.477 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:18.477 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:33:19.582 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:33:19.583 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:33:19.585 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:19.587 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:33:19.589 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 12:33:19.592 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:33:19.696 2018] [2188:868] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:33:20.701 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:33:20.703 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:33:20.704 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:20.709 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:33:21.815 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:33:21.817 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:33:21.819 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:21.821 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:33:21.824 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 12:33:21.826 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:33:22.832 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:33:22.835 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:33:22.837 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:22.840 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:33:23.945 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:33:23.948 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:33:23.951 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:33:23.954 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:33:23.956 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 12:33:23.959 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:33:23.961 2018] [2188:868] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:33:23.963 2018] [2188:868] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:33:23.966 2018] [2188:868] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 12:45:04.799 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:45:04.802 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:45:04.805 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:04.811 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:45:05.916 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:45:05.919 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:45:05.922 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:05.924 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:45:05.927 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 12:45:05.929 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:45:06.934 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:45:06.936 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:45:06.939 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:06.941 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:45:08.049 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:45:08.052 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:45:08.055 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:08.058 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:45:08.060 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 12:45:08.063 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:45:08.167 2018] [2188:868] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 12:45:09.172 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:45:09.175 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:45:09.177 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:09.179 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:45:10.284 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 12:45:10.287 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 12:45:10.291 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:10.293 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:45:10.295 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 12:45:10.299 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 12:45:11.304 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:45:11.307 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:45:11.310 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:11.311 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 12:45:12.418 2018] [2188:868] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 12:45:12.421 2018] [2188:868] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 12:45:12.423 2018] [2188:868] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 12:45:12.426 2018] [2188:868] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 12:45:12.428 2018] [2188:868] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 12:45:12.430 2018] [2188:868] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 12:45:12.433 2018] [2188:868] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 12:45:12.434 2018] [2188:868] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 12:45:12.437 2018] [2188:868] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:10:13.725 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:10:13.727 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:10:13.728 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:10:13.729 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:10:14.833 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:10:14.836 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:10:14.838 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:10:14.840 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:10:14.842 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 13:10:14.844 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:17:13.044 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:17:13.046 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:17:13.048 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:13.051 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:17:14.155 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:17:14.158 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:17:14.160 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:14.162 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:17:14.164 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 13:17:14.166 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:17:15.171 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:17:15.173 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:17:15.175 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:15.177 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:17:16.283 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:17:16.285 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:17:16.287 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:16.289 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:17:16.291 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 13:17:16.295 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:17:16.398 2018] [2188:8828] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:17:17.402 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:17:17.405 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:17:17.407 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:17.409 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:17:18.515 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:17:18.517 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:17:18.519 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:18.521 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:17:18.522 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Sat Feb 17 13:17:18.524 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:17:19.529 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:17:19.531 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:17:19.534 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:19.536 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:17:20.641 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:17:20.643 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:17:20.645 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:17:20.647 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:17:20.649 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 13:17:20.651 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:17:20.654 2018] [2188:8828] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:17:20.655 2018] [2188:8828] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:17:20.658 2018] [2188:8828] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:18:05.603 2018] [2188:8828] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:18:06.607 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:18:06.609 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:18:06.611 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:18:06.613 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:18:07.720 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:18:07.722 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:18:07.724 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:18:07.726 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:18:07.728 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=8, client_errors=0).
+[Sat Feb 17 13:18:07.730 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:18:08.733 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:18:08.735 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:18:08.736 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:18:08.738 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:18:09.840 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:18:09.843 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:18:09.845 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:18:09.847 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:18:09.849 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=7, client_errors=0).
+[Sat Feb 17 13:18:09.851 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:18:09.954 2018] [2188:8828] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Sat Feb 17 13:18:09.956 2018] [2188:8828] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 13:18:09.959 2018] [2188:8828] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:18:09.961 2018] [2188:8828] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:18:09.963 2018] [2188:8828] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:19:02.718 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:19:02.720 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:19:02.723 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:02.724 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:19:03.829 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:19:03.832 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:19:03.835 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:03.836 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:19:03.838 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=9, client_errors=0).
+[Sat Feb 17 13:19:03.840 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:19:04.845 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:19:04.848 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:19:04.850 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:04.852 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:19:05.956 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:19:05.958 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:19:05.961 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:05.964 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:19:05.965 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=8, client_errors=0).
+[Sat Feb 17 13:19:05.967 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:19:06.070 2018] [2188:8828] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:19:07.075 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:19:07.075 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:19:07.078 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:07.079 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:19:08.184 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:19:08.187 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:19:08.189 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:08.192 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:19:08.194 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=10, client_errors=0).
+[Sat Feb 17 13:19:08.196 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:19:09.200 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:19:09.203 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:19:09.205 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:09.207 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:19:10.314 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:19:10.317 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:19:10.319 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:19:10.321 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:19:10.323 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=9, client_errors=0).
+[Sat Feb 17 13:19:10.325 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:19:10.327 2018] [2188:8828] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:19:10.331 2018] [2188:8828] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:19:10.334 2018] [2188:8828] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:20:17.831 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:20:17.834 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:20:17.836 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:17.838 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:20:18.942 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:20:18.945 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:20:18.947 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:18.949 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:20:18.952 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=11, client_errors=0).
+[Sat Feb 17 13:20:18.954 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:20:19.958 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:20:19.960 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:20:19.962 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:19.964 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:20:21.069 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:20:21.071 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:20:21.073 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:21.075 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:20:21.077 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=10, client_errors=0).
+[Sat Feb 17 13:20:21.079 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:20:21.181 2018] [2188:8828] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:20:22.187 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:20:22.189 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:20:22.191 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:22.193 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:20:23.299 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:20:23.301 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:20:23.303 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:23.305 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:20:23.307 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=12, client_errors=0).
+[Sat Feb 17 13:20:23.309 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:20:24.312 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:20:24.315 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:20:24.318 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:24.321 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:20:25.427 2018] [2188:8828] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:20:25.428 2018] [2188:8828] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:20:25.428 2018] [2188:8828] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:25.429 2018] [2188:8828] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:20:25.429 2018] [2188:8828] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=11, client_errors=0).
+[Sat Feb 17 13:20:25.430 2018] [2188:8828] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:20:25.430 2018] [2188:8828] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:20:25.431 2018] [2188:8828] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:20:25.431 2018] [2188:8828] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:20:47.356 2018] [2188:8664] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping
+[Sat Feb 17 13:20:52.897 2018] [8348:1460] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Sat Feb 17 13:20:52.900 2018] [8348:1460] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Sat Feb 17 13:20:59.963 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:20:59.966 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:20:59.969 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:20:59.971 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:01.076 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:21:01.081 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:21:01.083 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:01.085 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:01.088 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 13:21:01.089 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:21:02.093 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:02.096 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:02.098 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:02.101 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:03.204 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:03.206 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:03.208 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:03.210 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:03.213 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=1, client_errors=0).
+[Sat Feb 17 13:21:03.215 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:21:03.319 2018] [8348:1460] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:21:04.323 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:21:04.325 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:21:04.328 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:04.330 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:05.435 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:21:05.437 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:21:05.440 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:05.442 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:05.444 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 13:21:05.448 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:21:06.454 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:06.457 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:06.459 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:06.461 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:07.566 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:07.569 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:07.571 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:07.573 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:07.575 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=2, client_errors=0).
+[Sat Feb 17 13:21:07.577 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:21:07.580 2018] [8348:1460] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:21:07.582 2018] [8348:1460] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:21:07.585 2018] [8348:1460] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:21:52.680 2018] [8348:1460] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:21:53.686 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:21:53.688 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:21:53.691 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:53.693 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:54.798 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:21:54.798 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:21:54.799 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:54.799 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:54.800 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 13:21:54.800 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:21:55.803 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:55.804 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:55.804 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:55.805 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:21:56.907 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:21:56.908 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:21:56.908 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:21:56.909 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:21:56.909 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=3, client_errors=0).
+[Sat Feb 17 13:21:56.910 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:21:57.011 2018] [8348:1460] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Sat Feb 17 13:21:57.012 2018] [8348:1460] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 13:21:57.012 2018] [8348:1460] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:21:57.013 2018] [8348:1460] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:21:57.013 2018] [8348:1460] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:24:07.226 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:07.229 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:07.231 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:07.234 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:08.340 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:08.342 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:08.345 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:08.347 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:08.349 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 13:24:08.351 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:24:09.356 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:09.359 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:09.361 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:09.363 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:10.467 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:10.469 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:10.471 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:10.473 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:10.475 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=4, client_errors=0).
+[Sat Feb 17 13:24:10.479 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:24:10.582 2018] [8348:1460] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:24:11.585 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:11.587 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:11.589 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:11.590 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:12.697 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:12.698 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:12.700 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:12.701 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:12.703 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 13:24:12.704 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:24:13.708 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:13.709 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:13.709 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:13.710 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:14.813 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:14.816 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:14.818 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:14.821 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:14.823 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=5, client_errors=0).
+[Sat Feb 17 13:24:14.825 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:24:14.827 2018] [8348:1460] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:24:14.830 2018] [8348:1460] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:24:14.832 2018] [8348:1460] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:24:17.675 2018] [8348:1460] [info] service::jk_lb_worker.c (1642): Forcing recovery once for 2 workers
+[Sat Feb 17 13:24:18.680 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:18.682 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:18.684 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:18.686 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:19.792 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.51:8009 failed (errno=61)
+[Sat Feb 17 13:24:19.793 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss1) Failed opening socket to (192.168.200.51:8009) (errno=61)
+[Sat Feb 17 13:24:19.794 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:19.795 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:19.795 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss1) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 13:24:19.796 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss1 is in error state
+[Sat Feb 17 13:24:20.801 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:20.804 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:20.806 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:20.808 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Feb 17 13:24:21.915 2018] [8348:1460] [info] jk_open_socket::jk_connect.c (817): connect to 192.168.200.52:8009 failed (errno=61)
+[Sat Feb 17 13:24:21.917 2018] [8348:1460] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1068): (jboss2) Failed opening socket to (192.168.200.52:8009) (errno=61)
+[Sat Feb 17 13:24:21.918 2018] [8348:1460] [error] ajp_send_request::jk_ajp_common.c (1728): (jboss2) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Sat Feb 17 13:24:21.921 2018] [8348:1460] [info] ajp_service::jk_ajp_common.c (2778): (jboss2) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Sat Feb 17 13:24:21.923 2018] [8348:1460] [error] ajp_service::jk_ajp_common.c (2799): (jboss2) connecting to tomcat failed (rc=-3, errors=6, client_errors=0).
+[Sat Feb 17 13:24:21.928 2018] [8348:1460] [info] service::jk_lb_worker.c (1590): service failed, worker jboss2 is in error state
+[Sat Feb 17 13:24:22.032 2018] [8348:1460] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=1, retry=1)
+[Sat Feb 17 13:24:22.033 2018] [8348:1460] [info] service::jk_lb_worker.c (1659): All tomcat instances failed, no more workers left (attempt=2, retry=1)
+[Sat Feb 17 13:24:22.036 2018] [8348:1460] [info] service::jk_lb_worker.c (1670): All tomcat instances are busy or in error state
+[Sat Feb 17 13:24:22.039 2018] [8348:1460] [error] service::jk_lb_worker.c (1675): All tomcat instances failed, no more workers left
+[Sat Feb 17 13:24:22.041 2018] [8348:1460] [error] HttpExtensionProc::jk_isapi_plugin.c (2240): service() failed with http error 503
+[Sat Feb 17 13:24:38.093 2018] [8348:4928] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping
+[Sat Feb 17 13:25:20.716 2018] [1072:7204] [info] init_jk::jk_isapi_plugin.c (2606): Starting Tomcat/ISAPI/isapi_redirector/1.2.42
+[Sat Feb 17 13:25:20.718 2018] [1072:7204] [info] init_jk::jk_isapi_plugin.c (2804): Tomcat/ISAPI/isapi_redirector/1.2.42 initialized
+[Sat Feb 17 13:46:21.702 2018] [1072:4652] [info] TerminateFilter::jk_isapi_plugin.c (2299): Tomcat/ISAPI/isapi_redirector/1.2.42 stopping

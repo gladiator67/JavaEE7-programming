@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>jQuery SOAP 테스트</title>
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<script>
+var soapMessage = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" " + 
+	  "xmlns:soap=\"http://soap.aaa.com/\"> " + 
+	  "<soapenv:Header/> " +
+	  "<soapenv:Body> " +
+	  "<soap:loginFunc> " + 
+	  "<arg0>aupres</arg0> " +
+	  "<arg1>aaa</arg1> " +
+	  "</soap:loginFunc> " +
+	  "</soapenv:Body> " +
+	  "</soapenv:Envelope>"
+
+$.ajax({
+    url: "LoginBean", 
+    type: "post",
+    datatype: "xml", 
+    processData: true,
+    data: soapMessage,
+    contentType: "text/xml; charset=utf-8",
+
+    success: function (data) {
+    	console.log(data)
+    },
+
+    error: function (jqXHR, status) {
+    	console.log(status)
+    }     
+});
+</script>
+</body>
+</html>

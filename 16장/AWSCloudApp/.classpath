@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="appClientModule"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/awsData/aws-java-sdk-core-1.11.310.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/aws-java-sdk-ec2-1.11.310.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/aws-java-sdk-elasticbeanstalk-1.11.310.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/aws-java-sdk-rds-1.11.310.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/aws-java-sdk-s3-1.11.310.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/jackson-annotations-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/awsData/joda-time-2.9.9.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
