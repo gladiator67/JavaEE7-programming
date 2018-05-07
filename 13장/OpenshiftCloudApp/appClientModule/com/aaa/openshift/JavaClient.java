@@ -19,15 +19,15 @@ public class JavaClient {
 				.withUserName("gladiator67@naver.com")
 				.withPassword("password123")
 				.build();
-		   client.getAuthorizationContext().setToken("L-Zaag97ve79aBvXfvv4DLx2AawcUOwcVbmm6Rd5BLI");
+		   client.getAuthorizationContext().setToken("L-Zaag97ve79aBvfuckfvv4DLx2AawcUOwcVbmm6Rd5BLI");
 		System.out.println("=======================================================================");
-		System.out.println("Å¬¶óÀÌ¾ğÆ® OpenshiftÀÇ API ¹öÀü : " + client.getOpenShiftAPIVersion() + ", Openshift ¼­¹öÀÇ »óÅÂ : " + client.getServerReadyStatus());
+		System.out.println("í´ë¼ì´ì–¸íŠ¸ Openshiftì˜ API ë²„ì „ : " + client.getOpenShiftAPIVersion() + ", Openshift ì„œë²„ì˜ ìƒíƒœ : " + client.getServerReadyStatus());
 		
 		
 		System.out.println("\n========================Openshift Project====================================");
 		IProject project = (IProject)client.getResourceFactory().stub(ResourceKind.PROJECT, "josephopenshiftproject");
-		System.out.println("Openshift API ¹öÀü : " + project.getApiVersion() 
-				+", ÇÁ·ÎÁ§Æ® namespace : " + project.getNamespace() + ", ÇÁ·ÎÁ§Æ® ÀÌ¸§ : " + project.getName());	
+		System.out.println("Openshift API ë²„ì „ : " + project.getApiVersion() 
+				+", í”„ë¡œì íŠ¸ namespace : " + project.getNamespace() + ", í”„ë¡œì íŠ¸ ì´ë¦„ : " + project.getName());	
 		
 		
 		System.out.println("\n========================Openshift Pods==============================");
@@ -36,16 +36,16 @@ public class JavaClient {
 		for(IPod pod : pods) {
 			System.out.println(pod.getName());
 			System.out.println("Pod Host : " + pod.getHost() + ", Pod Namespace : " + pod.getNamespace() 
-					+ " ,Pod »ı¼º ½Ã°£ :" + pod.getCreationTimeStamp());
-			System.out.println("Pod »óÅÂ : " + pod.getStatus() + "\n" + pod.toJson());
+					+ " ,Pod ìƒì„± ì‹œê°„ :" + pod.getCreationTimeStamp());
+			System.out.println("Pod ìƒíƒœ : " + pod.getStatus() + "\n" + pod.toJson());
 		}
 		
 		System.out.println("\n========================Openshift Services==============================");
 		List<IService> services = client.list(ResourceKind.SERVICE, "josephopenshiftproject");
 		for(IService service : services) {
 			System.out.println(service.getName());
-			System.out.println("¼­ºñ½º ÀÚ¿ø ¹öÀü : " + service.getResourceVersion() + 
-					", ¼­ºñ½º Á¾·ù : " + service.getKind() + ", ¼­ºñ½º  Æ÷Æ® : " + service.getPort());
+			System.out.println("ì„œë¹„ìŠ¤ ìì› ë²„ì „ : " + service.getResourceVersion() + 
+					", ì„œë¹„ìŠ¤ ì¢…ë¥˜ : " + service.getKind() + ", ì„œë¹„ìŠ¤  í¬íŠ¸ : " + service.getPort());
 			System.out.println(service.toJson());
 		}
 		
@@ -53,15 +53,15 @@ public class JavaClient {
 		List<IBuild> builds = client.list(ResourceKind.BUILD, "josephopenshiftproject");
 		for(IBuild build : builds) {
 			System.out.println(build.getName());
-			System.out.println("ºôµå Push º¸¾È : " + build.getPushSecret() + 
-					", ºôµå Àü·« : " + build.getBuildStrategy() + ", ºôµå ¸Ş¼¼Áö : " + build.getMessage());
+			System.out.println("ë¹Œë“œ Push ë³´ì•ˆ : " + build.getPushSecret() + 
+					", ë¹Œë“œ ì „ëµ : " + build.getBuildStrategy() + ", ë¹Œë“œ ë©”ì„¸ì§€ : " + build.getMessage());
 			System.out.println(build.toJson());
 		}
 		
 		System.out.println("\n========================Openshift Endpoints==============================");
 		List<IEndpoints> endpoints = client.list(ResourceKind.ENDPOINTS, "josephopenshiftproject");
 		for(IEndpoints endpoint : endpoints) {
-			System.out.println("¼´ÜÀÇ ÀÌ¸§°ú Json Å¸ÀÔ ¼Ó¼º : " + endpoint.getName() + "\n" + endpoint.toJson());
+			System.out.println("Âì„¦é¨ˆ ì´ë¦„ê³¼ Json íƒ€ì… ì†ì„± : " + endpoint.getName() + "\n" + endpoint.toJson());
 		}
 		
 	}
