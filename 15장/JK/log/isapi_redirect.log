@@ -1,0 +1,49 @@
+[Sun Aug 02 18:02:27.382 2015] [708:2168] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Sun Aug 02 18:02:27.382 2015] [708:2168] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Sun Aug 02 18:23:28.262 2015] [708:6012] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Mon Aug 03 08:03:49.844 2015] [7836:6552] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Mon Aug 03 08:03:49.860 2015] [7836:6552] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Mon Aug 03 08:20:09.705 2015] [7836:1448] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Mon Aug 03 08:20:36.753 2015] [6728:6548] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Mon Aug 03 08:20:36.763 2015] [6728:6548] [error] extension_fix::jk_uri_worker_map.c (578): Could not find worker with name 'loadbalancer' in uri map post processing.
+[Mon Aug 03 08:20:36.763 2015] [6728:6548] [error] extension_fix::jk_uri_worker_map.c (578): Could not find worker with name 'loadbalancer' in uri map post processing.
+[Mon Aug 03 08:20:36.763 2015] [6728:6548] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Mon Aug 03 08:21:25.485 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:21:54.317 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:24:32.699 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:25:53.014 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:27:05.630 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:27:36.442 2015] [6728:6548] [error] HttpExtensionProc::jk_isapi_plugin.c (2289): could not get a worker for name loadbalancer
+[Mon Aug 03 08:28:51.667 2015] [6728:2564] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Mon Aug 03 08:35:10.456 2015] [5764:6592] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Mon Aug 03 08:35:10.465 2015] [5764:6592] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Mon Aug 03 08:38:33.316 2015] [5764:6592] [info] ajp_send_request::jk_ajp_common.c (1652): (node1) all endpoints are disconnected, detected by connect check (1), cping (0), send (0)
+[Mon Aug 03 08:38:34.345 2015] [5764:6592] [info] jk_open_socket::jk_connect.c (758): connect to 192.168.25.36:8009 failed (errno=61)
+[Mon Aug 03 08:38:34.345 2015] [5764:6592] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1019): Failed opening socket to (192.168.25.36:8009) (errno=61)
+[Mon Aug 03 08:38:34.345 2015] [5764:6592] [error] ajp_send_request::jk_ajp_common.c (1663): (node1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Mon Aug 03 08:38:34.345 2015] [5764:6592] [info] ajp_service::jk_ajp_common.c (2673): (node1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Mon Aug 03 08:38:35.484 2015] [5764:6592] [info] jk_open_socket::jk_connect.c (758): connect to 192.168.25.36:8009 failed (errno=61)
+[Mon Aug 03 08:38:35.484 2015] [5764:6592] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1019): Failed opening socket to (192.168.25.36:8009) (errno=61)
+[Mon Aug 03 08:38:35.484 2015] [5764:6592] [error] ajp_send_request::jk_ajp_common.c (1663): (node1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=61)
+[Mon Aug 03 08:38:35.484 2015] [5764:6592] [info] ajp_service::jk_ajp_common.c (2673): (node1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=2)
+[Mon Aug 03 08:38:35.500 2015] [5764:6592] [error] ajp_service::jk_ajp_common.c (2693): (node1) connecting to tomcat failed.
+[Mon Aug 03 08:38:35.500 2015] [5764:6592] [info] service::jk_lb_worker.c (1519): service failed, worker node1 is in error state
+[Mon Aug 03 08:46:33.543 2015] [5764:6592] [info] jk_open_socket::jk_connect.c (758): connect to 192.168.25.36:8009 failed (errno=60)
+[Mon Aug 03 08:46:33.543 2015] [5764:6592] [info] ajp_connect_to_endpoint::jk_ajp_common.c (1019): Failed opening socket to (192.168.25.36:8009) (errno=60)
+[Mon Aug 03 08:46:33.543 2015] [5764:6592] [error] ajp_send_request::jk_ajp_common.c (1663): (node1) connecting to backend failed. Tomcat is probably not started or is listening on the wrong port (errno=60)
+[Mon Aug 03 08:46:33.543 2015] [5764:6592] [info] ajp_service::jk_ajp_common.c (2673): (node1) sending request to tomcat failed (recoverable), because of error during request sending (attempt=1)
+[Sat Aug 08 15:14:55.097 2015] [3144:4924] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Sat Aug 08 15:14:55.104 2015] [3144:4924] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Sat Aug 08 15:35:55.946 2015] [3144:4280] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Fri Aug 14 09:07:51.243 2015] [6296:7520] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Fri Aug 14 09:07:51.250 2015] [6296:7520] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Fri Aug 14 09:28:52.067 2015] [6296:7196] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Sat Aug 15 11:33:01.646 2015] [7508:5788] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Sat Aug 15 11:33:01.650 2015] [7508:5788] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Sat Aug 15 11:54:02.500 2015] [7508:7448] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Fri Aug 21 15:44:22.444 2015] [4800:5496] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Fri Aug 21 15:44:22.459 2015] [4800:5496] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Fri Aug 21 16:05:22.732 2015] [4800:3596] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping
+[Fri Aug 28 19:05:22.057 2015] [7204:852] [info] init_jk::jk_isapi_plugin.c (2689): Starting Jakarta/ISAPI/isapi_redirector/1.2.40
+[Fri Aug 28 19:05:22.067 2015] [7204:852] [info] init_jk::jk_isapi_plugin.c (2886): Jakarta/ISAPI/isapi_redirector/1.2.40 initialized
+[Fri Aug 28 19:26:22.707 2015] [7204:4892] [info] TerminateFilter::jk_isapi_plugin.c (2383): Jakarta/ISAPI/isapi_redirector/1.2.40 stopping

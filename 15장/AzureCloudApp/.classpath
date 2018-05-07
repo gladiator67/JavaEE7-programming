@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="appClientModule"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/client-runtime-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-resources-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-client-authentication-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-client-runtime-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-compute-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/retrofit-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/adapter-rxjava-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/okhttp-urlconnection-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/jackson-annotations-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/jackson-databind-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/jackson-datatype-joda-2.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/joda-time-2.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/rxjava-1.3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-graph-rbac-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-storage-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-network-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-keyvault-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-batch-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-batchai-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-trafficmanager-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-redis-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-cdn-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-dns-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-appservice-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-sql-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-servicebus-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-containerinstance-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-containerregistry-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-containerservice-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-cosmosdb-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-search-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-locks-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-msi-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-monitor-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-mgmt-eventhub-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/json-smart-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/asm-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/adal4j-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/oauth2-oidc-sdk-5.61.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/nimbus-jose-jwt-5.10.jar"/>
+	<classpathentry kind="lib" path="C:/Cloud_Backup/azure/azureLib/azure-keyvault-1.0.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
