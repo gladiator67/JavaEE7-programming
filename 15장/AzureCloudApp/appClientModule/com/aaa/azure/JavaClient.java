@@ -19,7 +19,7 @@ public class JavaClient {
         //=============================================================
         // Authenticate
 
-        final File credFile = new File("C:\\Cloud_Backup\\azure\\sp-51ce3bcb-8052-4d4f-8a45-6de5551bde33_20180428180754.azureauth");
+        final File credFile = new File("C:\\azure\\sp-51ce3bcb-8025-4d4f-8a45-6de5721bde33_20180428180754.azureauth");
         
         Azure azure = Azure.configure()
         			.withLogLevel(LogLevel.BASIC)
@@ -27,67 +27,67 @@ public class JavaClient {
 				    .withDefaultSubscription();
 
         //Print selected subscription
-       System.out.println("Azure ±¸µ¶ ID : " + azure.subscriptionId());
+       System.out.println("Azure êµ¬ë… ID : " + azure.subscriptionId());
        
        System.out.println("===================================================");
-       System.out.println("°¡»ó¸Ó½Å °ü¸®");
+       System.out.println("ê°€ìƒë¨¸ì‹  ê´€ë¦¬");
        
        List<VirtualMachine> vmList = azure.virtualMachines().list();
        for(VirtualMachine vm : vmList) {
-    	   System.out.println("   °¡»ó¸Ó½Å ÄÄÇ»ÆÃ ÀÌ¸§ : " + vm.computerName() + ",\n   °¡»ó¸Ó½Å ÀÌ¸§ : " + vm.name()
-    	   						+ " ,\n   °¡»ó¸Ó½Å ID : " + vm.id() + ",\n  Region ÀÌ¸§ : " + vm.regionName() ); 
+    	   System.out.println("   ê°€ìƒë¨¸ì‹  ì»´í“¨íŒ… ì´ë¦„ : " + vm.computerName() + ",\n   ê°€ìƒë¨¸ì‹  ì´ë¦„ : " + vm.name()
+    	   						+ " ,\n   ê°€ìƒë¨¸ì‹  ID : " + vm.id() + ",\n  Region ì´ë¦„ : " + vm.regionName() ); 
     	   System.out.println("\n");
        }
        
        System.out.println("===================================================");
-       System.out.println("Azure ¹èÆ÷ °ü¸®");
+       System.out.println("Azure ë°°í¬ ê´€ë¦¬");
        
        List<Deployment> deployList = azure.deployments().list();
        for(Deployment deploy : deployList) {
-    	   System.out.println("   ¹èÆ÷ ÀÌ¸§ : " + deploy.name() + ",\n   ¹èÆ÷ °ü¸® »óÅÂ : "  + deploy.provisioningState()
-    	   						+ ",\n   ¹èÆ÷ Ãâ·Â¹° : " + deploy.outputs());
+    	   System.out.println("   ë°°í¬ ì´ë¦„ : " + deploy.name() + ",\n   ë°°í¬ ê´€ë¦¬ ìƒíƒœ : "  + deploy.provisioningState()
+    	   						+ ",\n   ë°°í¬ ì¶œë ¥ë¬¼ : " + deploy.outputs());
     	   System.out.println("\n");
        }
        
        System.out.println("===================================================");
-       System.out.println("³×Æ®¿öÅ© ÀÎÅÍÆäÀÌ½º °ü¸®");
+       System.out.println("ë„¤íŠ¸ì›Œí¬ ì¸í„°í˜ì´ìŠ¤ ê´€ë¦¬");
        
        List<NetworkInterface> netInterList = azure.networkInterfaces().list();
        for(NetworkInterface netI : netInterList) {
-    	   System.out.println("   ³×Æ®¿öÅ© ÀÎÅÍÆäÀÌ½º ÀÌ¸§ : " + netI.name() + ",\n   ³×Æ®¿öÅ© ÀÎÅÍÆäÀÌ½º Áö¿ª ÀÌ¸§ : " + netI.regionName()
-    	   						+ ",\n   ³×Æ®¿öÅ© ¼³Á¤ : "+ netI.ipConfigurations());
+    	   System.out.println("   ë„¤íŠ¸ì›Œí¬ ì¸í„°í˜ì´ìŠ¤ ì´ë¦„ : " + netI.name() + ",\n   ë„¤íŠ¸ì›Œí¬ ì¸í„°í˜ì´ìŠ¤ ì§€ì—­ ì´ë¦„ : " + netI.regionName()
+    	   						+ ",\n   ë„¤íŠ¸ì›Œí¬ ì„¤ì • : "+ netI.ipConfigurations());
     	   System.out.println("\n");
        }
        
        System.out.println("===================================================");
-       System.out.println("°ø°ø ³×Æ®¿öÅ© °ü¸®");
+       System.out.println("ê³µê³µ ë„¤íŠ¸ì›Œí¬ ê´€ë¦¬");
 
        List<PublicIPAddress> pIPAddrList = azure.publicIPAddresses().list();
        for(PublicIPAddress pIp : pIPAddrList) {
-    	   System.out.println("   °ø°ø IP ÁÖ¼Ò ÀÌ¸§ : " + pIp.name() + ",\n   °ø°ø IP ÁÖ¼Ò : " + pIp.ipAddress() 
-    	   						+ ",\n   °ø°ø IP ÁÖ¼ÒÀÇ ¸®¼Ò½º ±×·ì ¸í : " + pIp.resourceGroupName());
+    	   System.out.println("   ê³µê³µ IP ì£¼ì†Œ ì´ë¦„ : " + pIp.name() + ",\n   ê³µê³µ IP ì£¼ì†Œ : " + pIp.ipAddress() 
+    	   						+ ",\n   ê³µê³µ IP ì£¼ì†Œì˜ ë¦¬ì†ŒìŠ¤ ê·¸ë£¹ ëª… : " + pIp.resourceGroupName());
     	   System.out.println("\n");
        }
        
        System.out.println("===================================================");
-       System.out.println("º¸¾È °ü¸®");
+       System.out.println("ë³´ì•ˆ ê´€ë¦¬");
        
        
        List<Vault> vaultList = azure.vaults().listByResourceGroup("JOSEPHRESOURCEGROUP");
        for(Vault vault : vaultList) {
-    	   System.out.println("   ÇØ´ç º¸¾È Á¤Ã¥ ÀÌ¸§ : " + vault.name() + ",\n  tenant ID : " + vault.tenantId() 
-    	   						+ ",\n   º¸¾È Áö¿ª ÀÌ¸§ : " + vault.regionName() + ",\n   º¸¾È Å° : " + vault.key());
+    	   System.out.println("   í•´ë‹¹ ë³´ì•ˆ ì •ì±… ì´ë¦„ : " + vault.name() + ",\n  tenant ID : " + vault.tenantId() 
+    	   						+ ",\n   ë³´ì•ˆ ì§€ì—­ ì´ë¦„ : " + vault.regionName() + ",\n   ë³´ì•ˆ í‚¤ : " + vault.key());
     	   System.out.println("\n");
        }
        
        System.out.println("===================================================");
-       System.out.println("¸®¼Ò½º °ü¸®");
+       System.out.println("ë¦¬ì†ŒìŠ¤ ê´€ë¦¬");
        
        
        List<ResourceGroup> rscList = azure.resourceGroups().list();
        for(ResourceGroup rsc : rscList) {
-    	   System.out.println("   ¸®¼Ò½º ÀÌ¸§ : " + rsc.name() + ",\n  ¸®¼Ò½º Å¸ÀÔ : " + rsc.type() 
-    	   						+ ",\n   ¸®¼Ò½º °ü¸® »óÅÂ : " + rsc.provisioningState() + ",\n   ¸®¼Ò½º Å° : " + rsc.key());
+    	   System.out.println("   ë¦¬ì†ŒìŠ¤ ì´ë¦„ : " + rsc.name() + ",\n  ë¦¬ì†ŒìŠ¤ íƒ€ì… : " + rsc.type() 
+    	   						+ ",\n   ë¦¬ì†ŒìŠ¤ ê´€ë¦¬ ìƒíƒœ : " + rsc.provisioningState() + ",\n   ë¦¬ì†ŒìŠ¤ í‚¤ : " + rsc.key());
     	   System.out.println("\n");
        }
 	}
